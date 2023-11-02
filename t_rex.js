@@ -134,8 +134,8 @@ class Enemy {
 
 let enemyType = [{
         type: "cactus_1",
-        width: 25,
-        height: 40,
+        width: 90,
+        height: 90,
         xCor: ctx.canvas.width - 15,
         yCor: ctx.canvas.height - gameSettings.ground - 40,
         color: "red",
@@ -143,8 +143,8 @@ let enemyType = [{
     },
     {
         type: "cactus_2",
-        width: 45,
-        height: 45,
+        width: 90,
+        height: 90,
         xCor: ctx.canvas.width - 50,
         yCor: ctx.canvas.height - gameSettings.ground - 45,
         color: "red",
@@ -152,8 +152,8 @@ let enemyType = [{
     },
     {
         type: "cactus_3",
-        width: 65,
-        height: 40,
+        width: 90,
+        height: 90,
         xCor: ctx.canvas.width - 30,
         yCor: ctx.canvas.height - gameSettings.ground - 40,
         color: "red",
@@ -161,8 +161,8 @@ let enemyType = [{
     },
     {
         type: "bird",
-        width: 40,
-        height: 30,
+        width: 90,
+        height: 90,
         xCor: ctx.canvas.width - 15,
         yCor: ctx.canvas.height - gameSettings.ground - 130,
         color: "red",
